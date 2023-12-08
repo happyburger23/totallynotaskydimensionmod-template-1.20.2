@@ -8,7 +8,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-
     public static final Item RAW_NEBULA_ORE = registerItem("raw_nebula_ore", new Item(new FabricItemSettings()));
     public static final Item NEBULA_INGOT = registerItem("nebula_ingot", new Item(new FabricItemSettings()));
 
@@ -16,7 +15,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(TotallyNotASkyDimensionMod.MOD_ID, name), item);
     }
 
-    public static void registerModBlocks() {
+    public static void registerModItems() {
         TotallyNotASkyDimensionMod.LOGGER.info("Registering Mod Items for" + TotallyNotASkyDimensionMod.MOD_ID);
     }
 }
