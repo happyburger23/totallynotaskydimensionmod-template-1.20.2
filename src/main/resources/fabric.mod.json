@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tnasdm",
+	"version": "${version}",
+	"name": "Totally Not A Sky Dimension Mod",
+	"description": "This is happyburger23's take on a sky dimension mod",
+	"authors": [
+		"happyburger23"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tnasdm/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.aiq9.TotallyNotASkyDimensionMod"
+		],
+		"fabric-datagen": [
+			"net.aiq9.TotallyNotASkyDimensionModDataGenerator"
+		]
+	},
+	"mixins": [
+		"tnasdm.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
