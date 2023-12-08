@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "tnasdm:block/raw_nebula_block"
-  }
-}

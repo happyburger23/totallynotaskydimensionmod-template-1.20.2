@@ -1,10 +1,8 @@
 package net.aiq9;
 
 import net.aiq9.blocks.ModBlocks;
-import net.aiq9.datagen.ModItemTags;
 import net.aiq9.item.ModItemGroup;
 import net.aiq9.item.ModItems;
-import net.aiq9.world.dimension.ModDimension;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -21,6 +19,5 @@ public class TotallyNotASkyDimensionMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 		ModItemGroup.registerItemGroups();
-		ModDimension.registerDimension();
 	}
 }
