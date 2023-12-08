@@ -4,7 +4,7 @@ import net.aiq9.TotallyNotASkyDimensionMod;
 
 public class ModDimension {
 
-    public static void registerModBlocks() {
+    public static void registerDimension() {
         TotallyNotASkyDimensionMod.LOGGER.info("Registering Dimensions for" + TotallyNotASkyDimensionMod.MOD_ID);
     }
 }
