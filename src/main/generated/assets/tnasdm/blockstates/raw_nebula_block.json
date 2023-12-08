@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tnasdm:block/raw_nebula_block"
+    }
+  }
+}
