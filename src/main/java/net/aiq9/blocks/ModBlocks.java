@@ -16,7 +16,6 @@ public class ModBlocks {
 
     public static final Block CLOUD_STONE = registerBlock("cloud_stone",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
-
     public static final Block NEBULA_ORE = registerBlock("nebula_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.COPPER_ORE)));
     public static final Block RAW_NEBULA_BLOCK = registerBlock("raw_nebula_block",
